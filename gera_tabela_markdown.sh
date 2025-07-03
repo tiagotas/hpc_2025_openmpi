@@ -8,7 +8,7 @@ SIZES=("256" "512" "768")
 THREADS=("2" "4" "8" "16")
 
 # Cabeçalho da tabela Markdown
-echo "| Tamanho da Matriz | Sequencial (s) | Paralelo 2T | Paralelo 4T | Paralelo 8T | Paralelo 16T |"
+echo "| Tamanho da Matriz | Sequencial (s) | Paralelo 2P | Paralelo 4P | Paralelo 8P | Paralelo 16P |"
 echo "|-------------------|----------------|-------------|-------------|-------------|---------------|"
 
 for size in "${SIZES[@]}"; do
